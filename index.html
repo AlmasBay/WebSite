@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добро пожаловать</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#about">Обо мне</a>
+        <a href="#projects">Проекты</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+    <div class="container">
+        <div class="welcome-message">
+            Добро пожаловать
+        </div>
+        <div id="about" class="about-section">
+            <h2>Обо мне</h2>
+            <p>Конечно!
+
+                Привет! Меня зовут Баяндин Алмас, я студент второго курса Astana IT University College. Мне 16 лет, и я увлекаюсь программированием с горячим интересом к изучению новых технологий и разработке программных решений. Моя страсть к кодингу началась несколько лет назад, и с тех пор я активно расширяю свои знания и навыки в этой области.
+                
+                Я всегда стремлюсь к саморазвитию и готов к новым вызовам, которые помогут мне стать лучшим специалистом в области IT. В свободное время я также учусь новым языкам программирования и экспериментирую с различными проектами, чтобы углубить свои знания и навыки. Будущее в IT мире кажется захватывающим, и я с нетерпением жду возможности внести свой вклад в инновации и технологический прогресс.</p>
+        </div>
+        <div id="projects" class="projects-section">
+            <h2>Проекты</h2>
+            <div class="project-grid">
+                <div class="project" id="project1">
+                    <img src="gif1.gif" alt="Project 1" class="project-gif">
+                    <h3>Проект калькулятора</h3>
+                    <button class="toggle-btn" onclick="toggleDescription('project1')">Подробнее</button>
+                    <div class="description">
+                        <button class="toggle-btn close-btn" onclick="toggleDescription('project1')">Скрыть</button>
+                        <p>Этот проект направлен на создание калькулятора с базовыми и дополнительными математическими функциями. Он будет поддерживать операции сложения, вычитания, умножения и деления, а также расчет процентов, конвертации валюты и единиц измерения. Интерфейс будет разработан с упором на интуитивную навигацию и удобство использования.</p>
+                    </div>
+                </div>
+                <div class="project" id="project2">
+                    <img src="gif2.gif" alt="Project 2" class="project-gif">
+                    <h3>Проект игры кликера</h3>
+                    <button class="toggle-btn" onclick="toggleDescription('project2')">Подробнее</button>
+                    <div class="description">
+                        <button class="toggle-btn close-btn" onclick="toggleDescription('project2')">Скрыть</button>
+                        <p>Второй проект представляет собой игру кликера, где пользователи могут кликать по экрану для заработка игровых ресурсов. Игра включает элементы прогрессии, возможность улучшения игровых параметров и анимации для улучшения визуального опыта игроков.</p>
+                    </div>
+                </div>
+                <div class="project" id="project3">
+                    <img src="gif3.gif" alt="Project 3" class="project-gif">
+                    <h3>Проект картографического приложения</h3>
+                    <button class="toggle-btn" onclick="toggleDescription('project3')">Подробнее</button>
+                    <div class="description">
+                        <button class="toggle-btn close-btn" onclick="toggleDescription('project3')">Скрыть</button>
+                        <p>Третий проект ориентирован на разработку приложения для работы с географическими координатами. Пользователи смогут вводить долготу и широту в приложении, после чего координаты будут отображаться на карте. Приложение предоставит функции навигации, поиска местоположений и дополнительной информации о выбранных точках.</p>
+                    </div>
+                </div>
+                <div class="project" id="project4">
+                    <img src="gif4.gif" alt="Project 4" class="project-gif">
+                    <h3>DataBase</h3>
+                    <button class="toggle-btn" onclick="toggleDescription('project4')">Подробнее</button>
+                    <div class="description">
+                        <button class="toggle-btn close-btn" onclick="toggleDescription('project4')">Скрыть</button>
+                        <p>Это готовая программа регистарция для входа в приложения. Это программа пользуеться Базой данных Firebase.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project-grid">
+                <div class="project" id="project5">
+                    <img src="gif5.gif" alt="Project 5" class="project-gif">
+                    <h3>Проект модели дерева с местностью и травой в Blender</h3>
+                    <button class="toggle-btn" onclick="toggleDescription('project5')">Подробнее</button>
+                    <div class="description">
+                        <button class="toggle-btn close-btn" onclick="toggleDescription('project5')">Скрыть</button>
+                        <p>В рамках этого проекта мы создаем детализированную модель дерева, внедренную в реалистичную местность с участками травы. Модель дерева будет иметь реалистичные текстуры коры и листьев, а также будет вписываться в окружение с подробной проработкой ландшафта, включая рельеф и разнообразие растительного покрова. Проект включает создание атмосферного окружения с использованием освещения и анимации, чтобы дать естественный вид и ощущение присутствия.</p>
+                    </div>
+                </div>
+                <div class="project" id="project6">
+                    <img src="gif6.gif" alt="Project 6" class="project-gif">
+                    <h3>Проект модели поезда в Blender:</h3>
+                    <button class="toggle-btn" onclick="toggleDescription('project6')">Подробнее</button>
+                    <div class="description">
+                        <button class="toggle-btn close-btn" onclick="toggleDescription('project6')">Скрыть</button>
+                        <p>Этот проект направлен на создание модели поезда в Blender. Модель будет включать в себя воссоздание различных компонентов поезда, включая вагоны, локомотив и элементы конструкции. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="contact-section">
+            <h2>Контакты</h2>
+            <div class="contact-details">
+                <a href="https://github.com/AlmasBay" target="_blank">
+                    <img src="github-logo.png" alt="GitHub"> AlmasBay
+                </a>
+                <a href="mailto:Almasba31@gmail.com">
+                    <img src="email-logo.png" alt="Email"> Almasba31@gmail.com
+                </a>
+                <a href="tel:+7-701-763-55-00">
+                    <img src="phone-logo.png" alt="Phone"> +7-701-763-55-00
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
